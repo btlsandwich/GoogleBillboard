@@ -7,7 +7,8 @@ public void setup()
     {
       digits = e.substring(i, i+10);
       dNum = Double.parseDouble(digits);
-      isPrime(dNum);
+      if (isPrime(dNum) == true)
+        System.out.println(dNum);
     }
 }  
 public void draw()  
